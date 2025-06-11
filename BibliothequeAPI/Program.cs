@@ -4,7 +4,7 @@ using BibliothequeAPI.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddSingleton<IRepository, Repository>(); // Le singleton est conservé
+builder.Services.AddSingleton<IRepository, Repository>(); 
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
