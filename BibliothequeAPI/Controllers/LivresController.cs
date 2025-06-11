@@ -16,9 +16,21 @@ namespace BibliothequeAPI.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Media>> GetAll()
+        public ActionResult<IEnumerable<Media>> GetAll([FromQuery] string? author, [FromQuery] string? title)
         {
-            return Ok(_repository.GetAll());
+            var allMedia = _repository.GetAll();
+
+            if (!string.IsNullOrEmpty(author))
+            {
+                allMedia = allMedia.Where(m => m.Author != null && m.Author.Contains(author, StringComparison.OrdinalIgnoreCase));
+            }
+
+            if (!string.IsNullOrEmpty(title))
+            {
+                allMedia = allMedia.Where(m => m.Title != null && m.Title.Contains(title, StringComparison.OrdinalIgnoreCase));
+            }
+
+            return Ok(allMedia);
         }
 
         [HttpGet("{id}")]
