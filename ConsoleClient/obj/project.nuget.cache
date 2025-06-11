@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "GlIDyXJa/as=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\percy\\Documents\\luka\\cours\\hexagone\\B3\\c# Xamarin\\BibliothequeAPI\\ConsoleClient\\ConsoleClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\percy\\.nuget\\packages\\system.io.pipelines\\9.0.6\\system.io.pipelines.9.0.6.nupkg.sha512",
+    "C:\\Users\\percy\\.nuget\\packages\\system.net.http.json\\9.0.6\\system.net.http.json.9.0.6.nupkg.sha512",
+    "C:\\Users\\percy\\.nuget\\packages\\system.text.encodings.web\\9.0.6\\system.text.encodings.web.9.0.6.nupkg.sha512",
+    "C:\\Users\\percy\\.nuget\\packages\\system.text.json\\9.0.6\\system.text.json.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
