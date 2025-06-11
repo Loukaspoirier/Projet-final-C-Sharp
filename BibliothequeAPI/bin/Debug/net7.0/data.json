@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+[{"Id":1,"Title":"test","Author":"xavier","Type":"PDF"},{"Id":2,"Title":"Testv2","Author":"loukas","Type":"Papier"},{"Id":3,"Title":"Nouvel Ebook","Author":"Auteur","Type":"PDF"},{"Id":4,"Title":"Nouveau Livre Papier","Author":"Auteur","Type":"Papier"},{"Id":5,"Title":"Test","Author":"Lol","Type":"PDF"}]
+=======
+[{"Id":1,"Title":"test","Author":"xavier","Type":"PDF"},{"Id":2,"Title":"caca","Author":"loukas","Type":"Papier"}]
+>>>>>>> cc19ca1b173d698eb2190591117f094afe760c0f
